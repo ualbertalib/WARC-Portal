@@ -1,0 +1,57 @@
+.login-content{
+    padding-top: 10em;
+    .auth-form {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        width: 45%;
+        background: white;
+        padding: 50px 50px 20px;
+        border-radius: 15px;
+
+        .form-group {
+            display: flex;
+            align-items: center;
+        }
+
+        .col-sm-2 {
+            margin-right: 20%;
+            font-weight: 700;
+        }
+
+        .button-center {
+            display: block;
+            margin: 10px 30%;
+        }
+
+        .btn {
+            width: 10em;
+        }
+    }
+
+    .auth-normal {
+        visibility: hidden;
+    }
+
+    .auth-error {
+        color: white;
+        margin-bottom: 0.35em;
+        border-radius: 0.5em;
+        text-align: center;
+        width: 45%;
+        margin: auto;
+        background: #d43f3a;
+    }
+
+    .elementToFadeIn {
+        background: #d43f3a;
+        animation: fadein 2s linear forwards;
+        opacity: 0;
+    }
+
+    @keyframes fadein {
+        100% {
+            opacity: 1;
+        }
+    }
+}

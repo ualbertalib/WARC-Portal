@@ -1,0 +1,238 @@
+14:16:12.030 INFO - Launching a standalone Selenium Server
+14:16:12.055 INFO - Java: Oracle Corporation 25.60-b23
+14:16:12.055 INFO - OS: Mac OS X 10.12.1 x86_64
+14:16:12.063 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+14:16:12.112 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+14:16:12.112 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+14:16:12.112 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:16:12.112 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:16:12.113 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+14:16:12.113 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+14:16:12.157 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:16:12.157 INFO - Selenium Server is up and running
+14:16:12.348 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test Page, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+14:16:12.356 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test Page, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1) on port 23624
+Only local connections are allowed.
+14:16:13.190 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test Page, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+14:16:13.201 INFO - Executing: [get: http://localhost:5000])
+14:16:14.676 INFO - Done: [get: http://localhost:5000]
+14:16:14.685 INFO - Executing: [find elements: By.cssSelector: body])
+14:16:14.714 INFO - Done: [find elements: By.cssSelector: body]
+14:16:14.728 INFO - Executing: [find elements: By.cssSelector: .list-group-item])
+14:16:14.743 INFO - Done: [find elements: By.cssSelector: .list-group-item]
+14:16:15.252 INFO - Executing: [find elements: By.cssSelector: .list-group-item])
+14:16:15.318 INFO - Done: [find elements: By.cssSelector: .list-group-item]
+14:16:15.322 INFO - Executing: [find elements: By.cssSelector: .docs-title-font])
+14:16:15.345 INFO - Done: [find elements: By.cssSelector: .docs-title-font]
+14:16:15.349 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+14:16:15.380 INFO - Done: [find element: By.cssSelector: input[type=text]]
+14:16:15.384 INFO - Executing: [send keys: 31 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[type=text]], [w, a, r, c,  , n, e, v, e, r,  , c, h, a, n, g, e, s, ]])
+14:16:15.468 INFO - Done: [send keys: 31 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[type=text]], [w, a, r, c,  , n, e, v, e, r,  , c, h, a, n, g, e, s, ]]
+14:16:15.473 INFO - Executing: [find elements: By.cssSelector: .list-group-item])
+14:16:15.586 INFO - Done: [find elements: By.cssSelector: .list-group-item]
+14:16:15.590 INFO - Executing: [refresh])
+14:16:16.284 INFO - Done: [refresh]
+14:16:16.290 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:16.310 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:16.819 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:16.826 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:17.335 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:17.344 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:17.851 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:17.860 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:18.369 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:18.377 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:18.884 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:18.893 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:19.397 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:19.404 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:19.908 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:19.914 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:20.422 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:20.429 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:20.938 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:20.946 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:21.455 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:21.463 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:21.973 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:21.980 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:22.490 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:22.497 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:23.003 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:23.010 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:23.521 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:23.529 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:24.038 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:24.046 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:24.555 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:24.562 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:25.072 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:25.080 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:25.589 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:25.597 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:26.105 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:26.112 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:26.622 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:26.630 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:27.139 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:27.147 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:27.654 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:27.660 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:28.167 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:28.175 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:28.679 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:28.684 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:29.189 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:29.197 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:29.706 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:29.713 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:30.221 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:30.228 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:30.732 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:30.739 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:31.247 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:31.254 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:31.763 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:31.770 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:32.280 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:32.287 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:32.796 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:32.804 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:33.311 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:33.317 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:33.823 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:33.830 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:34.339 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:34.347 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:34.851 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:34.857 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:35.361 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:35.368 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:35.872 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:36.034 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:36.037 INFO - Executing: [is displayed: 32 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: .filter-box]])
+14:16:36.048 INFO - Done: [is displayed: 32 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: .filter-box]]
+14:16:36.051 INFO - Executing: [find elements: By.cssSelector: .filter-box])
+14:16:36.057 INFO - Done: [find elements: By.cssSelector: .filter-box]
+14:16:36.060 INFO - Executing: [find elements: By.cssSelector: li[id="amazon.com"]])
+14:16:36.072 INFO - Done: [find elements: By.cssSelector: li[id="amazon.com"]]
+14:16:36.075 INFO - Executing: [is displayed: 33 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: li[id="amazon.com"]]])
+14:16:36.086 INFO - Done: [is displayed: 33 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: li[id="amazon.com"]]]
+14:16:36.089 INFO - Executing: [find element: By.cssSelector: a])
+14:16:36.101 INFO - Done: [find element: By.cssSelector: a]
+14:16:36.105 INFO - Executing: [click: 34 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: a]])
+14:16:36.658 WARN - Exception thrown
+org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=54.0.2840.98)
+  (Driver info: chromedriver=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1),platform=Mac OS X 10.12.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'uws108329usr.uws.ualberta.ca', ip: '172.28.94.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1), userDataDir=/var/folders/61/5sqmvgq11sg24x516_3937dc0000gn/T/.org.chromium.Chromium.HzU8eC}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 972047f53edf45aeda54b41c2a4ede94
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:335)
+	at com.sun.proxy.$Proxy2.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
+	at com.sun.proxy.$Proxy3.click(Unknown Source)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
+	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+14:16:36.659 WARN - Exception: element not visible
+  (Session info: chrome=54.0.2840.98)
+  (Driver info: chromedriver=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1),platform=Mac OS X 10.12.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'uws108329usr.uws.ualberta.ca', ip: '172.28.94.104', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.1', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.25.426935 (820a95b0b81d33e42712f9198c215f703412e1a1), userDataDir=/var/folders/61/5sqmvgq11sg24x516_3937dc0000gn/T/.org.chromium.Chromium.HzU8eC}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=54.0.2840.98, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 972047f53edf45aeda54b41c2a4ede94
+14:16:36.688 INFO - Executing: [find elements: By.cssSelector: .docs-title-font])
+14:16:36.701 INFO - Done: [find elements: By.cssSelector: .docs-title-font]
+14:16:36.704 INFO - Executing: [refresh])
+14:16:37.602 INFO - Done: [refresh]
+14:16:37.606 INFO - Executing: [find element: By.cssSelector: input[placeholder=From]])
+14:16:37.618 INFO - Done: [find element: By.cssSelector: input[placeholder=From]]
+14:16:37.621 INFO - Executing: [send keys: 44 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[placeholder=From]], [1, 1, /, 1, /, 2, 0, 1, 6]])
+14:16:37.829 INFO - Done: [send keys: 44 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[placeholder=From]], [1, 1, /, 1, /, 2, 0, 1, 6]]
+14:16:37.834 INFO - Executing: [refresh])
+14:16:38.582 INFO - Done: [refresh]
+14:16:38.585 INFO - Executing: [get: http://localhost:5000/images])
+14:16:39.229 INFO - Done: [get: http://localhost:5000/images]
+14:16:39.232 INFO - Executing: [find elements: By.cssSelector: img])
+14:16:39.245 INFO - Done: [find elements: By.cssSelector: img]
+14:16:39.752 INFO - Executing: [find elements: By.cssSelector: img])
+14:16:39.763 INFO - Done: [find elements: By.cssSelector: img]
+14:16:39.766 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+14:16:39.780 INFO - Done: [find element: By.cssSelector: input[type=text]]
+14:16:39.782 INFO - Executing: [send keys: 65 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[type=text]], [m, e, e, p, m, e, e, p, ]])
+14:16:39.875 INFO - Done: [send keys: 65 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[type=text]], [m, e, e, p, m, e, e, p, ]]
+14:16:39.878 INFO - Executing: [find elements: By.cssSelector: img])
+14:16:39.884 INFO - Done: [find elements: By.cssSelector: img]
+14:16:39.890 INFO - Executing: [get: http://localhost:5000/login])
+14:16:40.468 INFO - Done: [get: http://localhost:5000/login]
+14:16:40.472 INFO - Executing: [find element: By.cssSelector: input[id=username]])
+14:16:40.491 INFO - Done: [find element: By.cssSelector: input[id=username]]
+14:16:40.493 INFO - Executing: [send keys: 66 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[id=username]], [t, e, s, t, u, s, e, r, 1]])
+14:16:40.587 INFO - Done: [send keys: 66 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[id=username]], [t, e, s, t, u, s, e, r, 1]]
+14:16:40.590 INFO - Executing: [find element: By.cssSelector: input[type=password]])
+14:16:40.602 INFO - Done: [find element: By.cssSelector: input[type=password]]
+14:16:40.604 INFO - Executing: [send keys: 67 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[type=password]], [c, m, p, u, t, 4, 0, 1, ]])
+14:16:40.666 INFO - Done: [send keys: 67 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[type=password]], [c, m, p, u, t, 4, 0, 1, ]]
+14:16:40.669 INFO - Executing: [find elements: By.cssSelector: .docs-title-font])
+14:16:40.681 INFO - Done: [find elements: By.cssSelector: .docs-title-font]
+14:16:41.190 INFO - Executing: [find elements: By.cssSelector: .docs-title-font])
+14:16:41.197 INFO - Done: [find elements: By.cssSelector: .docs-title-font]
+14:16:41.716 INFO - Executing: [find elements: By.cssSelector: .docs-title-font])
+14:16:41.724 INFO - Done: [find elements: By.cssSelector: .docs-title-font]
+14:16:41.728 INFO - Executing: [get: http://localhost:5000/collections])
+14:16:42.272 INFO - Done: [get: http://localhost:5000/collections]
+14:16:42.275 INFO - Executing: [find elements: By.cssSelector: .create-collection-list])
+14:16:42.309 INFO - Done: [find elements: By.cssSelector: .create-collection-list]
+14:16:42.816 INFO - Executing: [find elements: By.cssSelector: .create-collection-list])
+14:16:42.826 INFO - Done: [find elements: By.cssSelector: .create-collection-list]
+14:16:42.828 INFO - Executing: [find element: By.cssSelector: input[name=collectionName]])
+14:16:42.839 INFO - Done: [find element: By.cssSelector: input[name=collectionName]]
+14:16:42.842 INFO - Executing: [send keys: 84 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[name=collectionName]], [T, E, S, T,  , C, O, L, L]])
+14:16:42.917 INFO - Done: [send keys: 84 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[name=collectionName]], [T, E, S, T,  , C, O, L, L]]
+14:16:42.920 INFO - Executing: [find element: By.cssSelector: input[role=combobox]])
+14:16:42.932 INFO - Done: [find element: By.cssSelector: input[role=combobox]]
+14:16:42.934 INFO - Executing: [send keys: 85 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[role=combobox]], [f, i, l, e, 1, ]])
+14:16:43.007 INFO - Done: [send keys: 85 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: input[role=combobox]], [f, i, l, e, 1, ]]
+14:16:43.010 INFO - Executing: [find element: By.cssSelector: .Select-arrow])
+14:16:43.023 INFO - Done: [find element: By.cssSelector: .Select-arrow]
+14:16:43.024 INFO - Executing: [click: 86 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: .Select-arrow]])
+14:16:43.053 INFO - Done: [click: 86 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: .Select-arrow]]
+14:16:43.056 INFO - Executing: [find elements: By.cssSelector: #submit])
+14:16:43.069 INFO - Done: [find elements: By.cssSelector: #submit]
+14:16:43.072 INFO - Executing: [find element: By.cssSelector: #submit])
+14:16:43.083 INFO - Done: [find element: By.cssSelector: #submit]
+14:16:43.085 INFO - Executing: [click: 87 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: #submit]])
+14:16:43.114 INFO - Done: [click: 87 [[ChromeDriver: chrome on MAC (972047f53edf45aeda54b41c2a4ede94)] -> css selector: #submit]]
+14:16:44.126 INFO - Executing: [delete session: d2c9d0a3-6a18-4748-9498-3cb968912bbd])
+14:16:44.205 INFO - Done: [delete session: d2c9d0a3-6a18-4748-9498-3cb968912bbd]

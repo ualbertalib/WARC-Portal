@@ -1,0 +1,116 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$zKPMXu9QbAys$O0gr2zHe/oOJoLkV4YfObFYdKeN0C5u4N/digEBy6m8=",
+        "last_login": null,
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2016-11-01T00:44:24.138",
+        "groups": [],
+        "user_permissions": []
+    }
+  },
+  {
+    "model": "rest_api.warcfile",
+    "pk": 1,
+    "fields": {
+      "name": "file1"
+    }
+  },
+  {
+    "model": "rest_api.warcfile",
+    "pk": 2,
+    "fields": {
+      "name": "file2"
+    }
+  },
+  {
+    "model": "rest_api.warcfile",
+    "pk": 3,
+    "fields": {
+      "name": "file3"
+    }
+  },
+  {
+    "model": "rest_api.document",
+    "pk": 1,
+    "fields": {
+      "crawl_date": "2014-01-01",
+      "pub_date": "2014-01-01",
+      "title": "test document",
+      "type": "html",
+      "detail": "null",
+      "link": "some fake link",
+      "file": 1,
+      "domain": "www.cheng10.cc",
+      "content": "hello world"
+    }
+  },
+    {
+    "model": "rest_api.document",
+    "pk": 2,
+    "fields": {
+      "crawl_date": "2015-01-01",
+      "pub_date": "2015-01-01",
+      "title": "test doc 2",
+      "type": "other",
+      "detail": "null",
+      "link": "some fake link",
+      "file": 2,
+      "domain": "www.cheng10.cc",
+      "content": "Company packaged nasal spray in laundry room"
+    }
+  },
+  {
+    "model": "rest_api.document",
+    "pk": 3,
+    "fields": {
+      "crawl_date": "2015-01-01",
+      "pub_date": "2015-01-01",
+      "title": "test doc 3",
+      "type": "other",
+      "detail": "null",
+      "link": "some fake link",
+      "file": 3,
+      "domain": "www.cheng10.cc",
+      "content": "API endpoint that allows tf-idf scores to be viewed by anyone"
+    }
+  },
+  {
+    "model": "rest_api.image",
+    "fields": {
+      "crawl_date": "2014-01-01",
+      "name": "cool-bear.jpg",
+      "detail": "fire, tesla",
+      "link": "https://sites.google.com/site/8bearsforever/_/rsrc/1438386364712/shop-cool-bear-stuff/amex.jpg",
+      "file": 1
+    }
+  },
+  {
+    "model": "rest_api.image",
+    "fields": {
+      "crawl_date": "2016-01-01",
+      "name": "cool-bear2.jpg",
+      "detail": "alberta",
+      "link": "https://c1.staticflickr.com/1/602/21499139611_b7b1d53ca0_b.jpg",
+      "file": 2
+    }
+  },
+  {
+    "model": "rest_api.collection",
+    "pk": 1,
+    "fields": {
+      "name": "collection1",
+      "warcuser": 1,
+      "detail": "",
+      "file": [1, 2, 3]
+    }
+  }
+]
